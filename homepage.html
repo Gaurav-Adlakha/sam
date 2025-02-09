@@ -1,0 +1,88 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome Back</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f4f7fa;
+        }
+        .container {
+            display: flex;
+            justify-content: space-between;
+        }
+        .left-panel, .right-panel {
+            width: 45%;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+        }
+        .welcome-message {
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+        .next-live-lesson {
+            margin-bottom: 20px;
+        }
+        .previous-lessons {
+            margin-top: 20px;
+        }
+        .previous-lessons ol {
+            list-style-type: none;
+            padding-left: 0;
+        }
+        .previous-lessons li {
+            margin-bottom: 10px;
+        }
+        .resource-links {
+            margin-top: 20px;
+        }
+        .resource-links ul {
+            list-style-type: none;
+            padding-left: 0;
+        }
+        .resource-links li {
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="left-panel">
+            <div class="welcome-message">
+                Welcome back, Gaurav
+            </div>
+            <div class="next-live-lesson">
+                <h3>Next Live Lesson</h3>
+                Coming soon.
+            </div>
+            <div class="previous-lessons">
+                <h3>Previous Lessons</h3>
+                <ol>
+                    <li><span>1.</span> <img src="play-icon.png" alt="Play"> <img src="download-icon.png" alt="Download"></li>
+                    <li><span>2.</span> <img src="play-icon.png" alt="Play"> <img src="download-icon.png" alt="Download"></li>
+                    <!-- Add more lessons as needed -->
+                </ol>
+            </div>
+        </div>
+        <div class="right-panel">
+            <div class="resource-links">
+                <h3>Resource Links</h3>
+                <ul>
+                    <li><a href="#">Community Discord</a></li>
+                    <li><a href="#">Connect to Solvelt</a></li>
+                    <li><a href="#">Stop Solvelt</a></li>
+                    <li><a href="#">Logout</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+```
