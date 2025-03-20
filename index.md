@@ -5,6 +5,6 @@
 
 - [HomePage](homepage.html)
   
-- [Profile](profile.html)
+- [Profile](profile.md)
 
 - -----
